@@ -1,0 +1,129 @@
+h1{
+  margin: 50px auto 0 auto;
+  font-size: 5rem;
+}
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Maven Pro', sans-serif;
+}
+a{
+  color: #fb7813;
+}
+h2{
+  color: #fb7813;
+  font-size: 2em;
+}
+h3{
+  color: #b6eb7a;
+}
+hr{
+  border-style: none;
+  width: 7%;
+  border-top: 10px dotted #17706e;
+  margin: 50px auto;
+}
+.top-container{
+  background-color: #f7f7ee;
+  padding-top: 100px;
+  position: relative;
+  /* line-height: 2;  */
+  margin-bottom: 100px;
+}
+.student{
+  font-size: 2em;
+  margin-top: 0;
+  color: #b6eb7a;
+  font-weight: normal;
+}
+.name{
+  font-family: 'Indie Flower', cursive;
+  color: #b6eb7a;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.top-cloud{
+  position: absolute;
+  top: 50px;
+  left: 975px;
+}
+.skill-row1{
+  width: 50%;
+  margin: auto;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skill-row2{
+  width: 50%;
+  margin: auto;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skill-img1{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-img2{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.profile{
+  width: 25%;
+  margin: auto;
+}
+.self-img{
+  width: 50%;
+}
+.btn{
+  background: #FB7813;
+  background-image: linear-gradient(to bottom, #FB7813, #F46A00);
+  border-radius: 20px;
+  color: #f7f7ee;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  border: solid #fb7813 1px;
+  padding: 10px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.btn:hover {
+   border: solid #B6EB7A 1px;
+   background: #B6EB7A;
+   /* background-image: -webkit-linear-gradient(top, #B6EB7A, #B6EB7A);
+   background-image: -moz-linear-gradient(top, #B6EB7A, #B6EB7A);
+   background-image: -ms-linear-gradient(top, #B6EB7A, #B6EB7A);
+   background-image: -o-linear-gradient(top, #B6EB7A, #B6EB7A); */
+   background-image: linear-gradient(to bottom, #B6EB7A, #B6EB7A);
+   /* -webkit-border-radius: 20px;
+   -moz-border-radius: 20px; */
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.bottom-container{
+  background-color: #17706e;
+  margin:0;
+
+  padding: 30px;
+}
+p{
+  margin-bottom:0;
+}
+.footer-link{
+  text-decoration: none;
+}
+.copyright{
+  color: white;
+}
